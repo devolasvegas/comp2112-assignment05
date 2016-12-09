@@ -1,6 +1,4 @@
- function chatbot(input) {
-
-    var message = input;
+ function chatbot(message) {
 
     var botMessage, humanMessage;
 
@@ -10,8 +8,9 @@
     // } while (humanMessage.toLowerCase() != 'bye');
 
     // return "hello."
-
-    // var lowerMessage = message.toLowerCase();
+    if(message) {
+        var lowerMessage = message.toLowerCase();
+    }
 
     if (message === undefined) {
         return 'Hello.'

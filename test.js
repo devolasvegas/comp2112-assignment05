@@ -17,7 +17,6 @@ it("Should return 'Hello.'", function(){
 });
 
 it("Should say 'How are you?'", function(){
-    // this is giving me the error
     var result = chatbot('hi');
     expect(result).to.equal("How are you?");
 });
