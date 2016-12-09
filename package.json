@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "http-server -o -c-1",
-    "test": "node test.js",
+    "test": "mocha test",
     "build:js": "browserify -t ./src/index.js | uglifyjs --compress --mangle > build/index.min.js"
   },
   "author": "devon daviau",
