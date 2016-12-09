@@ -17,9 +17,9 @@
         return 'Hello.'
     }
 
-    if (message === 'hi') {
+    if (lowerMessage === 'hi') {
         return "How are you?"
     }
 }
 
- module.exports = chatbot();
+ module.exports = chatbot;
